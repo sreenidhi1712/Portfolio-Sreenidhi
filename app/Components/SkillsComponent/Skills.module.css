@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+
+
+
+.MainContainer{
+    height: auto;
+    
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+.CardContainerFramework{
+   width: 50%;
+   margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.CardContainerFramework p{
+    display: flex;
+    align-items: center;
+    font-family: "Reddit Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 6.3rem;
+    color:var(--text-color);
+}
+.CardContainerLibraries{
+   width: 50%;
+   margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.Cards{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    height: 10rem;
+    width: 7rem;
+    border-radius: 10px;
+    border: 2px solid var(--text-color);
+    background-color: var(--tertiary-color);
+    margin: 1rem;
+    flex-direction: column;
+}
+
+.Cards p{
+    color:var(--text-color);
+}
+
+.skillsIcon{
+    color: var(--text-color);
+}
+
+@media screen and (max-width:1024px) {
+    .MainContainer{
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .CardContainerLibraries{
+        justify-content: space-evenly;
+        width: 100%;
+        margin-top: 0%;
+    }
+    .CardContainerFramework{
+        width: 100%;
+    }
+    .CardContainerFramework p{
+        font-size: 4rem;
+        margin-top: 2%;
+    
+    }
+}
+
+
+@media (max-width:768px) {
+    .MainContainer{
+        flex-direction: column;
+        width: 100%;
+      
+        
+       
+    }
+    .CardContainerFramework p{
+        font-size: 3rem;
+        margin-top: 6%;
+    }
+    .CardContainerFramework{
+        width: 100%;
+        
+    }
+    .CardContainerLibraries{
+        width: 100%;
+       
+   
+       
+    }
+    .Cards{
+        margin : 1rem 1rem;
+        height: 9rem;
+        width: 7rem;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .CardContainerFramework p{
+        font-size: 2.5rem;
+        margin-top: 15%;
+    }
+}

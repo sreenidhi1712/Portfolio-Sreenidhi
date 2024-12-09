@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+
+
+
+.MainContainer{
+    background-color: var(--primary-color);
+    height: 100vh ;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.Title{
+    height: 100%;
+width: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.Name{
+    font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 5rem;
+  color: var(--text-color);
+}
+
+.ImageContainer{
+    height: 100%;
+   width: 50%;
+    background-color:var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ImageHolder{
+    width: 65%;
+    height: 65%;
+    background-color: var(--tertiary-color);
+    /* border-radius: 50% */
+    border-radius: 10px;
+}
+
+.ImageHolder:hover{
+   box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1), 0 5px 15px rgba(255, 255, 255, 0.2); /* Shadow effect */
+   transform: scale(1.1); /* Optional: adds a slight zoom effect on hover */
+   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+}
+
+.Image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* border-radius: 50%; */
+    border-radius: 10px;
+}
+.domain{
+    font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2.3rem;
+    color:var(--text-color);
+}
+
+
+.Description{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    border-left: 2px solid var(--text-color);
+
+}
+
+.Description p{
+    font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.4rem;
+    color: var(--text-color);
+    margin-left: 10px;
+    text-align: justify;
+    margin-right: 10px;
+
+}
+/* .HorizontalLine{
+    border-left: 3px solid white;
+    height: 70%;
+    margin-left: 10%;
+margin-top: 3.5%;
+} */
+
+@media (max-width : 1024px){
+         .Name{
+            font-size: 3.8rem;
+         }
+         .domain{
+            font-size: 1.8rem;
+         }
+         .Description p{
+            font-size: 1rem;
+         }
+}
+
+@media screen and (max-width:768px) {
+    .Name{
+        font-size: 3rem;
+     }
+    
+     .Description p{
+        font-size: 1rem;
+     }
+     .MainContainer{
+        flex-direction: column-reverse;
+       
+     }
+     .Title{
+        height: 50%;
+        width: 100vw;
+        justify-content: start;
+     }
+     .ImageContainer{
+        height: 50%;
+        width: 100vw;
+        margin-top: 15%;
+        
+     }
+     .ImageHolder{
+        height: 80%;
+     }
+     .Description{
+        width: 90%;
+        border-bottom: 2px solid var(--text-color);
+        border-left: none;
+     }
+     .domain{
+        font-size: 2rem;
+     }
+   
+}
+
+
+@media screen and (max-width:425px) {
+    .Description p{
+        font-size: 0.8rem;
+     }
+     .domain{
+        font-size: 1.5rem;
+     }
+     .Name{
+        font-size: 2.8rem;
+     }
+     .ImageContainer{
+      margin-top: 15%;
+     }
+     
+    
+}
+
+@media screen and (max-width:375px) {
+  
+}
+
+@media screen and (max-width:320px) {
+    .Description p{
+        font-size: 0.7rem;
+     }
+     .domain{
+        font-size: 1.2rem;
+     }
+     .Name{
+        font-size: 2.4rem;
+     }
+     .ImageContainer{
+      margin-top: 15%;
+     }
+    
+}

@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+
+
+
+.Contactcontainer{
+   
+  height: auto;
+ overflow: hidden;
+  background-color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+
+.ContactTitle{
+    margin-top: -2rem;
+}
+
+.ContactTitle p{
+    color: var(--text-color);
+    font-size: 5rem;
+    font-family: "Reddit Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.Messager{
+display: flex;
+
+}
+.emailcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 20rem;
+    border-radius: 5px;
+    background-color:rgba(55, 58, 64, 0.3); /* Background color with opacity */
+    color: var(--text-color);
+}
+
+.emailcontainer p {
+    opacity: 1; /* Explicitly set opacity for text */
+    margin-left: 2rem;
+  }
+
+
+.mobilecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 20rem;
+    border-radius: 5px;
+    margin-left: 1.5rem;
+    background-color: rgba(55, 58, 64, 0.3); /* Background color with opacity */
+    color: var(--text-color);
+}
+
+.mobilecontainer p{
+    opacity: 1; /* Explicitly set opacity for text */
+    margin-left: 2rem;
+}
+
+.Address{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 25rem;
+   border-radius: 5px;
+   margin-top: 1.5rem;
+    background-color: rgba(55, 58, 64, 0.3); /* Background color with opacity */
+    color: var(--text-color);
+    
+}
+
+.Address p{
+    opacity: 1; /* Explicitly set opacity for text */
+    margin-left: 2rem;
+}
+/* .Address p{
+    margin-left: 2rem;
+} */
+
+.SocialMedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 8rem;
+    color: var(--text-color);
+    margin-bottom: 2rem;
+ 
+}
+
+.LinkedinIcon{
+    cursor: pointer;
+}
+
+.GithubIcon{
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.downloadbbtncontainer{
+    border-radius: 5px;
+    height: 2rem;
+    width: 10rem;
+    background-color: var(--button-background-color);
+   
+    margin-top: 2rem;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.downloadresume{
+    color: var( --button-text-color);
+    cursor: pointer;
+   
+}
+
+@media screen and (max-width:1024px) {
+    
+}
+
+@media screen and (max-width:768px) {
+    .ContactTitle p{
+        font-size: 3rem;
+    }
+    .Messager{
+        flex-direction: column;
+    }
+    .mobilecontainer{
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+    .emailcontainer{
+        margin-top: 1rem;
+    }
+    .Address{
+        margin-top: 1rem;
+    }
+    .SocialMedia{
+        margin-top: 5rem;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .ContactTitle p{
+        font-size: 2.5rem;
+    }
+    .emailcontainer{
+        width: 19rem;
+        height: 3rem;
+    }
+
+    .mobilecontainer{
+        width: 19rem;
+        height: 3rem;
+    }
+
+    .Address{
+        width: 19rem;
+        height: 3rem;
+    }
+    .address{
+        font-size: 1rem;
+    }
+    .email{
+        font-size: 1rem;
+    }
+
+    .LocatioMark{
+        height: 2rem;
+        width: 2rem;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .ContactTitle p{
+        font-size: 2rem;
+    }
+    .emailcontainer{
+        width: 15rem;
+        height: 3rem;
+    }
+
+    .mobilecontainer{
+        width: 15rem;
+        height: 3rem;
+    }
+    .mobile{
+        font-size: 0.8rem;
+    }
+    .Address{
+        width: 15rem;
+        height: 3rem;
+    }
+    .address{
+        font-size: 0.8rem;
+    }
+    .email{
+        font-size: 0.8rem;
+    }
+
+    .LocatioMark{
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+}
