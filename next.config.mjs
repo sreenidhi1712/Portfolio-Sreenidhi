@@ -1,13 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    async rewrites() {
-      return [
-        {
-          source: '/sitemap.xml',
-          destination: '/api/sitemap',
-        },
-      ];
-    },
-  };
-  
-  export default nextConfig;
+  output: 'export', // Enable static export
+  images: {
+    unoptimized: true, // Disable image optimization
+  },
+};
+
+export default nextConfig;

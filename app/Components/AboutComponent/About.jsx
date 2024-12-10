@@ -21,10 +21,13 @@ function About() {
               <div className={styles.ImageHolder}>
                   <Image 
                   className={styles.Image}
-                  src={myself} 
+                  src="/sreenidhi.jpg" 
                   alt="myself"
                   priority
                    loading="eager"
+                   width={800}
+                    height={800}
+                   
                   />
               </div>
         </div>

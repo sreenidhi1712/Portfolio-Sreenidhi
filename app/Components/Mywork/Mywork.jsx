@@ -1,10 +1,10 @@
 
 import styles from "./Mywork.module.css"
 // import { worksmade } from './work'
-import chanakya from './Chanakya.png'
-import  Newswing from './Newswing.png' 
-import vibhaa from "./vibhaa.png"
-import DailyMart from "./DailyMart.png"
+// import chanakya from './Chanakya.png'
+// import  Newswing from './Newswing.png' 
+// import vibhaa from "./vibhaa.png"
+// import DailyMart from "./DailyMart.png"
 import Image from 'next/image'
 
 
@@ -24,11 +24,14 @@ function Mywork() {
                             <div className={styles.ImageHolder}>
                                 <div className={styles.Imagepositioner}>
                                        <Image 
-                                       src={vibhaa} 
+                                       src="images/vibhaa.png"
                                        alt='projecimages' 
                                        className={styles.ProjectImg}
                                        priority
                                        loading="eager"
+                                       width={800}
+                                        height={800}
+                                       
                                        />
                                 </div>
                                         
@@ -50,11 +53,14 @@ function Mywork() {
                             <div className={styles.ImageHolder}>
                             <div className={styles.Imagepositioner}>
                                        <Image 
-                                       src={Newswing} 
+                                       src="images/Newswing.png" 
                                        alt='projecimages' 
                                        className={styles.ProjectImg}
                                         priority
                                        loading="eager"
+                                       width={800}
+                                       height={800}
+                                      
                                        />
                                 </div>
                             </div>
@@ -75,11 +81,14 @@ function Mywork() {
                             <div className={styles.ImageHolder}>
                             <div className={styles.Imagepositioner}>
                                        <Image 
-                                       src={chanakya} 
+                                       src="images/Chanakya.png" 
                                        alt='projecimages' 
                                        className={styles.ProjectImg}
                                         priority
                                        loading="eager"
+                                       width={800}
+                                       height={800}
+                                     
                                        />
                                 </div>
                             </div>
@@ -101,11 +110,14 @@ function Mywork() {
                             <div className={styles.ImageHolder}>
                                 <div className={styles.Imagepositioner}>
                                        <Image 
-                                       src={DailyMart} 
+                                       src="images/DailyMart.png"
                                        alt='projecimages' 
                                        className={styles.ProjectImg}
                                         priority
                                        loading="eager"
+                                       width={800}
+                                       height={800}
+                                     
                                        />
                                 </div>
                                         
