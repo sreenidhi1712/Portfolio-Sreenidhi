@@ -107,7 +107,7 @@ display: flex;
 
 .downloadbbtncontainer{
     border-radius: 5px;
-    height: 2rem;
+    height: 3rem;
     width: 10rem;
     background-color: var(--button-background-color);
    

@@ -1,6 +1,6 @@
 
 import styles from "./Mywork.module.css"
-import Image from 'next/image'
+
 
 
 function Mywork() {
@@ -18,14 +18,11 @@ function Mywork() {
                         <div className={styles.Cards} >
                             <div className={styles.ImageHolder}>
                                 <div className={styles.Imagepositioner}>
-                                       <Image 
+                                       <img
                                        src="images/vibhaa.png"
                                        alt='projecimages' 
                                        className={styles.ProjectImg}
-                                       priority
-                                       loading="eager"
-                                       width={800}
-                                        height={800}
+                                     
                                        
                                        />
                                 </div>
@@ -47,14 +44,11 @@ function Mywork() {
                         <div className={styles.Cards} >
                             <div className={styles.ImageHolder}>
                             <div className={styles.Imagepositioner}>
-                                       <Image 
+                                       <img 
                                        src="images/Newswing.png" 
                                        alt='projecimages' 
                                        className={styles.ProjectImg}
-                                        priority
-                                       loading="eager"
-                                       width={800}
-                                       height={800}
+                                
                                       
                                        />
                                 </div>
@@ -75,14 +69,11 @@ function Mywork() {
                         <div className={styles.Cards} >
                             <div className={styles.ImageHolder}>
                             <div className={styles.Imagepositioner}>
-                                       <Image 
+                                       <img 
                                        src="images/Chanakya.png" 
                                        alt='projecimages' 
                                        className={styles.ProjectImg}
-                                        priority
-                                       loading="eager"
-                                       width={800}
-                                       height={800}
+                                     
                                      
                                        />
                                 </div>
@@ -104,14 +95,11 @@ function Mywork() {
                         <div className={styles.Cards}  >
                             <div className={styles.ImageHolder}>
                                 <div className={styles.Imagepositioner}>
-                                       <Image 
+                                       <img 
                                        src="images/DailyMart.png"
                                        alt='projecimages' 
                                        className={styles.ProjectImg}
-                                        priority
-                                       loading="eager"
-                                       width={800}
-                                       height={800}
+                                      
                                      
                                        />
                                 </div>

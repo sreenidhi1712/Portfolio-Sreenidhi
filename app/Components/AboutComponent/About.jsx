@@ -1,5 +1,5 @@
 import styles from "./About.module.css"
-import Image from 'next/image'
+
 
 function About() {
   return (
@@ -18,14 +18,14 @@ function About() {
         </div>
         <div className={styles.ImageContainer}>
               <div className={styles.ImageHolder}>
-                  <Image 
+                  <img 
                   className={styles.Image}
                   src="/sreenidhi.jpg" 
                   alt="myself"
-                  priority
-                   loading="eager"
-                   width={800}
-                    height={800}
+                  // priority
+                  //  loading="eager"
+                  //  width={800}
+                  //   height={800}
                    
                   />
               </div>

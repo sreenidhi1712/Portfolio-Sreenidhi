@@ -2,6 +2,9 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "./Components/NavbarComponent/Navbar";
 
+const linkedinUrl = process.env.NEXT_PUBLIC_LINKEDIN_URL;
+const githubUrl = process.env.NEXT_PUBLIC_GITHUB_URL;
+
 // Load local fonts
 const geistSans = localFont({
   src: "/fonts/GeistVF.woff", // Corrected path for fonts
@@ -22,6 +25,7 @@ export const metadata = {
   icons: {
     icon: "/sreenidhi.jpg"
   },
+  metadataBase: new URL('https://sreenidhidev.me'), 
   openGraph: {
     title: "Sreenidhi D's Portfolio",
     description: "Crafting intuitive and dynamic web experiences with a passion for clean code and modern design. Eager to bring creativity and technical skills to innovative projects.",
@@ -35,6 +39,16 @@ export const metadata = {
         alt: "Sreenidhi D",
       },
     ],
+    site_name: "Sreenidhi D Portfolio",
+    // Add your social links for Open Graph
+    profile: {
+      username: "Sreenidhi D",
+      user: linkedinUrl, // LinkedIn URL
+    },
+    // Optional: Add other social links like GitHub
+    social: {
+      github: githubUrl, // GitHub URL
+    },
   },
   twitter: {
     card: "summary_large_image",

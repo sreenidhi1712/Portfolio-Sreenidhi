@@ -40,7 +40,7 @@ function Contactme() {
                         <p className={styles.address}>U-129 1st main road, Srirampuram, Blore-21</p>
              </div>
              <div   className={styles.downloadbbtncontainer}>
-              <div className={styles.downloadresume} onClick={()=>handleLinks(resumeUrl)}>Checkout My Resume</div>
+              <div className={styles.downloadresume} onClick={()=>handleLinks(resumeUrl)}>View My Resume</div>
              </div>
 
              <div className={styles.SocialMedia}  >
