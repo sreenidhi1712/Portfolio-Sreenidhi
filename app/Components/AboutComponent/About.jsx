@@ -1,5 +1,4 @@
 import styles from "./About.module.css"
-import myself from './sreenidhi.jpg'
 import Image from 'next/image'
 
 function About() {

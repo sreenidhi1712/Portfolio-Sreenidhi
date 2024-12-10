@@ -1,10 +1,5 @@
 
 import styles from "./Mywork.module.css"
-// import { worksmade } from './work'
-// import chanakya from './Chanakya.png'
-// import  Newswing from './Newswing.png' 
-// import vibhaa from "./vibhaa.png"
-// import DailyMart from "./DailyMart.png"
 import Image from 'next/image'
 
 
