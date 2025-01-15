@@ -123,8 +123,183 @@ display: flex;
    
 }
 
-@media screen and (max-width:1024px) {
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    position: relative;
+    color: var(--text-color);
     
+  }
+  
+  /* Header Section */
+  .header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .icon {
+    width: 60px;
+    height: 60px;
+    background: var(--primary-color);
+    border: 4px solid var(--button-background-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 2rem;
+    color: var(--button-text-color);
+    box-shadow: var(--box-shadow);
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--text-color);
+    margin: 1rem 0 0.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    color: var(--text-color);
+    opacity: 0.8;
+  }
+  
+  /* Form Styles */
+  .form {
+    margin-top: 2rem;
+  }
+  
+  .row {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .input,
+  .textarea {
+    width: 93%;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--tertiary-color);
+    border-radius: 5px;
+    font-size: 1rem;
+    color: var(--text-color);
+    background-color: var(--tertiary-color);
+    box-shadow: var(--box-shadow);
+  }
+  
+  .input:focus,
+  .textarea:focus {
+    outline: none;
+    border-color: var(--button-background-color);
+    box-shadow: 0 0 0 2px rgba(33, 161, 241, 0.5);
+  }
+  
+  .textarea {
+    resize: none;
+    height: 150px;
+  }
+  
+  /* Submit Button */
+  .button {
+    width: 100%;
+    background-color: var(--button-background-color);
+    color: var(--button-text-color);
+    border: none;
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+    box-shadow: var(--box-shadow);
+  }
+  
+  .button:hover {
+    background-color: var(--button-hover-background-color);
+    transform: scale(1.05);
+  }
+
+  .input,
+.textarea {
+  padding: 1rem; /* Increased padding for better aesthetics */
+}
+.button {
+    margin-top: 1rem; /* Add space above the button */
+  }
+  .row {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem; /* Adjusted for better spacing */
+  }
+  
+  .form {
+    margin-top: 2.5rem; /* Slightly increase spacing from the header */
+  }
+  .icon {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+
+  .contactContainer {
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 300px)); */
+    gap: 1.5rem;
+    /* padding: 1rem; */
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 2rem;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    margin-top: 2rem;
+  }
+  
+  .contactCard {
+    background-color: var(--tertiary-color);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .contactCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  }
+  
+  .contactIcon {
+    font-size: 2rem;
+    color: var(--text-color);
+  }
+  
+  .contactText {
+    font-size: 1rem;
+    color: var(--text-color);
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+
+@media screen and (max-width:1024px) {
+    .textarea{
+        width: 93%;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -146,6 +321,13 @@ display: flex;
     }
     .SocialMedia{
         margin-top: 5rem;
+    }
+    .textarea{
+        width: 90%;
+    }
+    .contactContainer{
+        flex-direction: column;
+        width: 90%;;
     }
 }
 
@@ -177,6 +359,9 @@ display: flex;
     .LocatioMark{
         height: 2rem;
         width: 2rem;
+    }
+    .textarea{
+        width: 87%;
     }
 }
 
@@ -211,4 +396,8 @@ display: flex;
         height: 1.5rem;
         width: 1.5rem;
     }
+    .textarea{
+        width: 90%;
+    }
 }
+

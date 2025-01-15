@@ -9,7 +9,9 @@ function About() {
            
                 <p className={styles.domain}>Frontend ReactJS Developer</p>
                 <div className={styles.Name}>
-                    SREENIDHI D
+                {"SREENIDHID".split("").map((char, index) => (
+            <span key={index} className={styles.letter}>{char}</span>
+          ))}
                 </div>
                 <div className={styles.Description}>
                        
