@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: row;
     margin: 0;
-    padding: 0;
+    padding: 1rem;
 }
 .CardContainerFramework{
    width: 50%;
@@ -34,9 +34,24 @@
    width: 50%;
    margin-top: 5%;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
+}
+
+.CardContainerwrapper{
+    width: 90%;
+    height: 11rem;
+    position: relative;
+    margin-top: 1rem;
+    overflow: hidden;
+    margin-inline: auto;
+    mask-image: linear-gradient(to right,
+    rgba(0,0,0,0),
+    rgba(0,0,0,1) 20%,
+    rgba(0,0,0,1) 80%,
+    rgba(0,0,0,0)
+    ); 
 }
 .Cards{
    display: flex;
@@ -47,11 +62,80 @@
     border-radius: 10px;
     border: 2px solid var(--text-color);
     background-color: var(--tertiary-color);
-    margin: 1rem;
     flex-direction: column;
+    position: absolute;
+    left: calc(7rem * 5);
+    animation-name: scrollLeft;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.CardsRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 10rem;
+     width: 7rem;
+     border-radius: 10px;
+     border: 2px solid var(--text-color);
+     background-color: var(--tertiary-color);
+     flex-direction: column;
+     position: absolute;
+     right: calc(7rem * 5);
+     animation-name: scrollRight;
+     animation-duration: 10s;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+ }
+
+ @keyframes scrollRight {
+    to {
+        right: -7rem;
+    }
+}
+
+ @keyframes scrollLeft {
+    to {
+        left: -7rem;
+    }
+}
+.item1{
+    animation-delay: calc(10s / 5 * (5 - 1) * -1);
+}
+.item2{
+    animation-delay: calc(10s / 5 * (5 - 2) * -1);
+}
+.item3{
+    animation-delay: calc(10s / 5 * (5 - 3) * -1);
+}
+.item4{
+    animation-delay:calc(10s / 5 * (5 - 4) * -1) ;
+}
+.item5{
+    animation-delay:calc(10s / 5 * (5 - 5) * -1) ;
+}
+.itemRight1{
+    animation-delay: calc(10s / 5 * (5 - 1) * -1);
+}
+.itemRight2{
+    animation-delay: calc(10s / 5 * (5 - 2) * -1);
+}
+.itemRight3{
+    animation-delay: calc(10s / 5 * (5 - 3) * -1);
+}
+.itemRight4{
+    animation-delay:calc(10s / 5 * (5 - 4) * -1) ;
+}
+.itemRight5{
+    animation-delay:calc(10s / 5 * (5 - 5) * -1) ;
 }
 
 .Cards p{
+    color:var(--text-color);
+}
+
+.CardsRight p{
     color:var(--text-color);
 }
 
