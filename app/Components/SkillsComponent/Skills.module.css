@@ -64,7 +64,7 @@
     background-color: var(--tertiary-color);
     flex-direction: column;
     position: absolute;
-    left: calc(7rem * 5);
+    left: max(calc(7rem * 5),100%);
     animation-name: scrollLeft;
     animation-duration: 10s;
     animation-timing-function: linear;
@@ -82,7 +82,7 @@
      background-color: var(--tertiary-color);
      flex-direction: column;
      position: absolute;
-     right: calc(7rem * 5);
+     right: max(calc(7rem * 5),100%);
      animation-name: scrollRight;
      animation-duration: 10s;
      animation-timing-function: linear;
