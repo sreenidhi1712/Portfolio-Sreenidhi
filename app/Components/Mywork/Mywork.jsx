@@ -107,18 +107,18 @@ function Mywork() {
                             </div>
                             <div className={styles.ContentContainer}>
                             <div className={styles.ProjectNameContainer}>
-                            <p className={styles.ProjectName}>Daily Mart - Grocery shopping Website</p>
+                            <p className={styles.ProjectName}>Daily Mart - Grocery shopping Website and App</p>
                             </div>
                             <div className={styles.Description}>
-                            <p>A responsive MERN stack web application designed to offer users a seamless and efficient daily grocery shopping experience.</p>
+                            <p>A responsive MERN stack web application and React Native App designed to offer users a seamless and efficient daily grocery shopping experience.</p>
                             </div>
                             <div className={styles.ButtonContainer}>
-                               <a href='https://github.com/sreenidhi1712/Daily-Mart-MERN-Stack-project.git' target="_blank" className={styles.Button}>View code</a>
-                               <a href='https://kaleidoscopic-raindrop-f847b8.netlify.app/' target="_blank" className={styles.Button}>View Project</a>
+                               <a href='https://github.com/sreenidhi1712/Daily-Mart-MERN-Stack-project.git' target="_blank" className={styles.Button}>code</a>
+                               <a href='https://kaleidoscopic-raindrop-f847b8.netlify.app/' target="_blank" className={styles.Button}>Website</a>
+                               <a href="https://youtu.be/C3hrez1IrOE" target="_blank" className={styles.Button}>App Demo</a>
                             </div>
-                            </div>
-                        </div>
-                        
+                            </div>  
+                        </div>       
                 </div>
 
 </div>

@@ -9,6 +9,8 @@ import { FaNode } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
+import { TbBrandReactNative } from "react-icons/tb";
+import { SiSpringboot } from "react-icons/si";
 
 function Skills() {
   return (
@@ -17,6 +19,14 @@ function Skills() {
                             <p>MY SKILLS</p>
               </div>
               <div className={Styles.CardContainerLibraries}>
+              <div className={Styles.Cards}>
+                      <TbBrandReactNative className={Styles.skillsIcon}  title="REACT NATIVE" size="4rem"/>
+                      <p>REACT NATIVE</p>
+            </div>
+            <div className={Styles.Cards}>
+                      <SiSpringboot className={Styles.skillsIcon}  title="SPRING BOOT" size="4rem"/>
+                      <p>SPRING BOOT</p>
+            </div>
               <div className={Styles.Cards}>
                       <RiNextjsFill className={Styles.skillsIcon}  title="NEXT JS" size="4rem"/>
                       <p>NEXT JS</p>
@@ -27,19 +37,19 @@ function Skills() {
             </div>
               <div className={Styles.Cards}>
                       <FaReact className={Styles.skillsIcon}  title="React" size="4rem"/>
-                      <p>REACTJS</p>
+                      <p>REACT JS</p>
             </div>
             <div className={Styles.Cards}>
                       <FaNode className={Styles.skillsIcon}  title="NODEJS" size="4rem"/>
-                      <p>NODEJS</p>
+                      <p>NODE JS</p>
             </div>
             <div className={Styles.Cards}>
                       <SiExpress className={Styles.skillsIcon}  title="EXPRESSJS" size="4rem"/>
-                      <p>EXPRESSJS</p>
+                      <p>EXPRESS JS</p>
             </div>
             <div className={Styles.Cards}>
                       <SiMongodb className={Styles.skillsIcon}  title="MONGODB" size="4rem"/>
-                      <p>MONGODB</p>
+                      <p>MONGO DB</p>
             </div>
             <div className={Styles.Cards}>
                     <RiTailwindCssFill className={Styles.skillsIcon}  title="Tailwind-css" size="4rem"/>
@@ -67,7 +77,7 @@ function Skills() {
                   </div>
                
 
-                <div className={Styles.Cards}>
+                {/* <div className={Styles.Cards}>
                         <FaHtml5 className={Styles.skillsIcon}  title="HTML5" size="4rem"/>
                         <p>HTML</p>
               </div>
@@ -75,7 +85,7 @@ function Skills() {
               <div className={Styles.Cards}>
                     <FaCss3Alt className={Styles.skillsIcon}  title="CSS3" size="4rem"/>
                     <p>CSS</p>
-              </div>
+              </div> */}
               <div className={Styles.Cards}>
                       <FaJs className={Styles.skillsIcon}   title="JavaScript" size="4rem"/>
                       <p>JAVASCRIPT</p>
