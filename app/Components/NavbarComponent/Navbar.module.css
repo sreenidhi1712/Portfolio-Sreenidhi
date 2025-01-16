@@ -15,6 +15,7 @@
     
 }
 
+
 .NavbarPart{
   background-color:  var(--secondary-color);
     display: flex;
@@ -91,16 +92,18 @@ display: none;
    
 }
 
-.NavbarContent p{
+.Menuicon{
+  display: none;
+}
+
+.anchorNavbar{
+  color: var(--link-color);
+  text-decoration: none;
   &:hover{
     cursor: pointer;
     color: var(--link-hover-color);
   
   }
-}
-
-.Menuicon{
-  display: none;
 }
 
 @media screen and (max-width : 1024px) {

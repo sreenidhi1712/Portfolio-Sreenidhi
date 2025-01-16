@@ -44,6 +44,7 @@ html, body {
   padding: 0;
   box-sizing: border-box;
   background-color: var(--primary-color);
+  scroll-behavior:smooth
 } 
 
 .App {
