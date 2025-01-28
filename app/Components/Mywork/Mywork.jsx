@@ -14,7 +14,69 @@ function Mywork() {
                         My Work
                 </div>
 
+
+
                 <div className={styles.CardContainer}>
+
+                <div className={styles.Cards}  >
+                            <div className={styles.ImageHolder}>
+                                <div className={styles.Imagepositioner}>
+                                       <img 
+                                       src="images/EcoventAirSystems.png"
+                                       alt='projecimages' 
+                                       className={styles.ProjectImg}
+                                      
+                                     
+                                       />
+                                </div>
+                                        
+                            </div>
+                            <div className={styles.ContentContainer}>
+                            <div className={styles.ProjectNameContainer}>
+                            <p className={styles.ProjectName}>Ecovent Air Systems India LLP - Business Website</p>
+                            </div>
+                            <div className={styles.Description}>
+                            <p>A professional website developed for Ecovent Air Systems India LLP, showcasing their range of HVAC products with an optimized user experience and SEO implementation.</p>
+                            </div>
+                            <div className={styles.ButtonContainer}>
+                               <a href='https://www.ecoventairsystems.com' target="_blank" className={styles.Button}>Website</a>
+                            </div>
+                            </div>  
+                        </div> 
+
+
+
+                <div className={styles.Cards}  >
+                            <div className={styles.ImageHolder}>
+                                <div className={styles.Imagepositioner}>
+                                       <img 
+                                       src="images/DailyMart.png"
+                                       alt='projecimages' 
+                                       className={styles.ProjectImg}
+                                      
+                                     
+                                       />
+                                </div>
+                                        
+                            </div>
+                            <div className={styles.ContentContainer}>
+                            <div className={styles.ProjectNameContainer}>
+                            <p className={styles.ProjectName}>Daily Mart - Grocery shopping Website and App</p>
+                            </div>
+                            <div className={styles.Description}>
+                            <p>A responsive MERN stack web application and React Native App designed to offer users a seamless and efficient daily grocery shopping experience.</p>
+                            </div>
+                            <div className={styles.ButtonContainer}>
+                               <a href='https://github.com/sreenidhi1712/Daily-Mart-MERN-Stack-project.git' target="_blank" className={styles.Button}>code</a>
+                               <a href='https://kaleidoscopic-raindrop-f847b8.netlify.app/' target="_blank" className={styles.Button}>Website</a>
+                               <a href="https://youtu.be/C3hrez1IrOE" target="_blank" className={styles.Button}>App Demo</a>
+                            </div>
+                            </div>  
+                        </div>       
+
+                      
+
+
                         <div className={styles.Cards} >
                             <div className={styles.ImageHolder}>
                                 <div className={styles.Imagepositioner}>
@@ -92,33 +154,7 @@ function Mywork() {
                             </div>
                         </div>
 
-                        <div className={styles.Cards}  >
-                            <div className={styles.ImageHolder}>
-                                <div className={styles.Imagepositioner}>
-                                       <img 
-                                       src="images/DailyMart.png"
-                                       alt='projecimages' 
-                                       className={styles.ProjectImg}
-                                      
-                                     
-                                       />
-                                </div>
-                                        
-                            </div>
-                            <div className={styles.ContentContainer}>
-                            <div className={styles.ProjectNameContainer}>
-                            <p className={styles.ProjectName}>Daily Mart - Grocery shopping Website and App</p>
-                            </div>
-                            <div className={styles.Description}>
-                            <p>A responsive MERN stack web application and React Native App designed to offer users a seamless and efficient daily grocery shopping experience.</p>
-                            </div>
-                            <div className={styles.ButtonContainer}>
-                               <a href='https://github.com/sreenidhi1712/Daily-Mart-MERN-Stack-project.git' target="_blank" className={styles.Button}>code</a>
-                               <a href='https://kaleidoscopic-raindrop-f847b8.netlify.app/' target="_blank" className={styles.Button}>Website</a>
-                               <a href="https://youtu.be/C3hrez1IrOE" target="_blank" className={styles.Button}>App Demo</a>
-                            </div>
-                            </div>  
-                        </div>       
+                   
                 </div>
 
 </div>
